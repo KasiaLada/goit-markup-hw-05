@@ -625,9 +625,11 @@ img {
   border-radius: 4px;
 transition-property: transform;
 transition-duration: 500ms;
+cursor: pointer;
 }
 .modal:hover {
 transform: scale(1,2)
+
 }
 .close-btn {
   position: absolute;
