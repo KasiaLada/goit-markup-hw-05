@@ -610,7 +610,7 @@ img {
   left: 0px;
   top: 0px;
   background: rgba(0, 0, 0, 0.2);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
   position: absolute;
@@ -628,7 +628,7 @@ transition-duration: 500ms;
 cursor: pointer;
 }
 .modal:hover {
-transform: scale(1,2)
+transform: opacity;
 
 }
 .close-btn {
@@ -649,5 +649,4 @@ transform: scale(1,2)
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transform: scale(0);
 }
