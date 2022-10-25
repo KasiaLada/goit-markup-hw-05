@@ -210,8 +210,10 @@ body {
 .projects-item {
   flex-basis: calc((100% - 60px) / 3);
   background-color: #ffffff;
+  
 }
-.projects-item:hover {
+.projects-item:hover,
+.projects-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -623,13 +625,12 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-transition-property: transform;
-transition-duration: 500ms;
-cursor: pointer;
+  transition-property: transform;
+  transition-duration: 500ms;
+  cursor: pointer;
 }
 .modal:hover {
-transform: opacity;
-
+  transform: opacity;
 }
 .close-btn {
   position: absolute;
