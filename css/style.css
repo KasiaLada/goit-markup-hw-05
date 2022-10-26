@@ -321,9 +321,7 @@ img {
 .cover:hover .overlay {
   transform: translateY(0);
 }
-/* .cover:focus .overlay {            
-  transform: translateY(0);
-} */
+
 .overlay p {
   font-family: "Roboto";
   font-style: normal;
